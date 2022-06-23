@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--    <TextView-->
+<!--        android:id="@+id/tv_withpet"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/tv_always"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:text="위드펫"-->
+<!--        android:textColor="#ACA0DF"-->
+<!--        android:textSize="36sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:padding="8dp"/>-->
+<!--    <TextView-->
+<!--        android:id="@+id/tv_always"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:text="언제나 함께"-->
+<!--        android:textColor="#9771AE"-->
+<!--        android:textSize="24sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:padding="16dp"/>-->
+
+    <EditText
+        android:id="@+id/et_home"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:hint="동물병원 검색"
+        android:inputType="text"
+        android:background="#DBD4EA"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/iv"/>
+
+    <ImageButton
+        android:id="@+id/ib_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@id/et_home"
+        android:src="@drawable/ic_search"
+        android:backgroundTint="@color/white"
+        android:layout_below="@id/iv"/>
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="500dp"
+        android:layout_height="400dp"
+        android:src="@drawable/withpet_home_change"/>
+
+
+</RelativeLayout>
